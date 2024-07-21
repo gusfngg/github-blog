@@ -8,10 +8,6 @@ import * as z from 'zod'
 import { BlogContainer, SearchContainer, Posts } from './styles'
 import { useEffect, useState } from "react";
 
-const searchFormSchema = z.object({
-   query: z.string(),
-})
-
 export interface IPost {
    title: string;
    body: string;
