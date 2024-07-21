@@ -3,7 +3,6 @@ import { api } from "../../lib/axios";
 import { BlogProfile } from "./components/BlogProfile";
 import { ResumePost } from "./components/ResumePost";
 import { useNavigate } from 'react-router-dom'
-import * as z from 'zod'
 
 import { BlogContainer, SearchContainer, Posts } from './styles'
 import { useEffect, useState } from "react";
